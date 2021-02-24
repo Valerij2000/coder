@@ -1,18 +1,22 @@
 {
-  "name": "notes-home",
+  "name": "users-crm",
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "serve": "vue-cli-service serve",
+    "serve": "vue-cli-service --open serve",
     "build": "vue-cli-service build"
   },
   "dependencies": {
-    "vue": "^2.6.11"
+    "axios": "^0.21.1",
+    "vue": "^2.6.11",
+    "vue-carousel": "^0.18.0",
+    "vue-router": "^3.5.1",
+    "vuex": "^3.6.2"
   },
   "devDependencies": {
     "@vue/cli-service": "~4.5.0",
     "node-sass": "^5.0.0",
-    "sass-loader": "^10.1.1",
+    "sass-loader": "^10.1.0",
     "vue-template-compiler": "^2.6.11"
   }
 }
